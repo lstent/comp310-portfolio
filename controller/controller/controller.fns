@@ -1,0 +1,24 @@
+; C:\Users\ls183797\Downloads\NES\controller\controller\controller.asm
+LoadSpritesLoop                  = $C059
+LoadPalettes                     = $C03D
+LatchController                  = $C07B
+Forever                          = $C06E
+palette                          = $E000
+LoadPalettesLoop                 = $C04C
+ReadUp                           = $C0E1
+ReadBDone                        = $C0DB
+ReadStart                        = $C0DE
+LoadSprites                      = $C057
+ReadA                            = $C085
+ReadB                            = $C0B0
+vblankwait1                      = $C014
+ReadUpDone                       = $C0F1
+vblankwait2                      = $C038
+ReadStartDone                    = $C0E1
+clrmem                           = $C019
+RESET                            = $C000
+sprites                          = $E020
+ReadADone                        = $C0B0
+ReadSelectDone                   = $C0DE
+ReadSelect                       = $C0DB
+NMI                              = $C071
